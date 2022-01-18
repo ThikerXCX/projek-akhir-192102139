@@ -32,13 +32,13 @@
           </a>
           <ul class="nav nav-treeview">
             <li class="nav-item">
-              <a href="/dashboard" class="nav-link active">
+              <a [routerLink]="['/dashboard']" routerLinkActive="router-link-active" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Dashboard</p>
               </a>
             </li>
             <li class="nav-item">
-              <a href="/divisi" class="nav-link active">
+              <a [routerLink]="['/divisi']" routerLinkActive="router-link-active" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Divisi</p>
               </a>
@@ -48,4 +48,4 @@
       </ul>
     </nav>
   </div>
-</aside>
+</aside>  

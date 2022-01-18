@@ -5,8 +5,8 @@ import { DivisionComponent } from './division/division.component';
 
 const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent },
-  { path: 'divisi', component: DivisionComponent },
-  { path: '', redirectTo: 'divisi', pathMatch: 'full' },
+  { path: 'division', component: DivisionComponent },
+  { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
 ];
 
 @NgModule({
